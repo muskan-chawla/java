@@ -7,7 +7,8 @@ public class MultiException2
             int array[]=new int[10];
             array[10]=30/0;
         }
-        catch(Exception|ArithmeticException|ArrayIndexOutOfBoundsException e)
+        catch(ArithmeticException|ArrayIndexOutOfBoundsException e)
+
         {
             System.out.println(e.getMessage());
         }
